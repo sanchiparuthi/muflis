@@ -1,0 +1,138 @@
+body{
+   
+   background-color: rgb(255, 193, 255) ;
+    font-family: "Pixel Intv", serif;
+}
+
+h1{
+    color: rgb(0, 0, 0);
+    font-size: xx-large;
+    text-align: center;
+    margin-top: 50px;
+    
+}
+
+h1:hover{
+    font-size: 100px;
+}
+
+h2{
+    color: rgb(255);
+    font-size: medium;
+    text-align: center;
+    
+}
+
+h3{
+    color: rgb(0, 0, 0);
+    font-size: xx-large;
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+*{
+    
+    padding:0;
+    box-sizing: border-box;
+}
+
+.bodyCard {
+    font-family: "Pixel Intv", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+    overflow: hidden ;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.container .card{
+    position: absolute;
+    width: 235px;
+    height: 315px;
+    background:  rgb(186, 215, 241);
+    border-radius: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(133, 27, 79, 0);
+    font-size: 7em;
+    font-weight: 700;
+    border: 10px solid rgb(0, 0, 0);
+    cursor: pointer;
+    transition: 1s;
+    transform-origin: 50% 100%;
+    filter: hue-rotate(calc(var(--i)* 50deg));
+    box-shadow: 0 15px 50px rgba(18, 17, 17, 0.1);
+}
+
+.container:hover .card{
+transform: rotate(calc(var(--i)* 14deg)) rotateY(360deg) translate(calc(var(--i) * 120px), -50px);
+
+color: rgba(0,0,0.8);
+box-shadow: 0 15px 50px rgba(0,0,0,0.25);
+}
+
+.container .card:active{
+    translate: calc(var(--i)*20 px) -50px;
+    z-index: 100;
+}
+
+.container2{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.container2 .card{
+    position: absolute;
+    width: 235px;
+    height: 315px;
+    background:  rgb(255, 243, 177);
+    border-radius: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(133, 27, 79, 0);
+    font-size: 7em;
+    font-weight: 700;
+    border: 10px solid rgb(0, 0, 0);
+    cursor: pointer;
+    transition: 1s;
+    transform-origin: 50% 100%;
+    filter: hue-rotate(calc(var(--i)* 50deg));
+    box-shadow: 0 15px 50px rgba(18, 17, 17, 0.1);
+}
+
+.container2:hover .card{
+transform: rotate(calc(var(--i)* 14deg)) rotateY(360deg) translate(calc(var(--i) * 120px), -50px);
+
+color: rgba(0,0,0.8);
+box-shadow: 0 15px 50px rgba(0,0,0,0.25);
+}
+
+.container2 .card:active{
+    translate: calc(var(--i)*20 px) -50px;
+    z-index: 100;
+}
+
+
+
+

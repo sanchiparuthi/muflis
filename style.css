@@ -1,0 +1,70 @@
+h2{
+    color: rgb(209, 103, 235);
+    font-size: xx-large;
+    text-align: center;
+    margin-top: 400px;
+    padding: 1em;
+    border: 5px solid rgb(255, 255, 255);
+}
+
+a:link {
+text-decoration: none;
+color: rgb(255, 193, 255);
+}
+
+  a:hover {font-size:150%;}
+
+  a:visited {
+    color: rgb(255, 193, 255);
+  }
+  
+
+body{
+    background-color: rgb(0, 0, 0);
+ 
+      font-family: "Pixel Intv", serif;
+      z-index:-1;
+
+}
+
+footer{
+  color: rgb(255, 240, 252);
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-size: small;
+}
+
+.modal{
+  padding: 1em;
+  max-width: fit-content;
+  & > * {
+    margin: 0 0 0.5rem 0;
+  }
+  background-color: rgb(219, 169, 209);
+}
+
+.modal ::backdrop{
+  background: rgb(239, 155, 228);
+}
+
+.button{
+  color: rgb(0, 0, 0);
+  background-color: rgb(209, 103, 235);
+  font-family: "Pixel Intv", serif;
+  padding: 0.5em;
+  max-width: fit-content;
+  & > * {
+    margin: 0 0 0.5rem 0;
+  }
+}
+
+#rule{
+  position: fixed;
+  left: 0;
+  bottom: -100;
+  width: 100%;
+  text-align: center;
+}
